@@ -1,0 +1,10 @@
+# Validated installation: Windows native, Python 3.10, NVIDIA RTX 3060 Ti.
+# Install CUDA 11.2 and cuDNN 8.1 with Conda before this file:
+# conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+# TensorFlow 2.10 is the last release with native Windows GPU support.
+tensorflow==2.10.1
+numpy<1.24
+pandas<2
+matplotlib
+Pillow
+ipykernel

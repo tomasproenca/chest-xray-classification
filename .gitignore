@@ -1,0 +1,22 @@
+# Local datasets and generated copies
+data/**
+!data/**/
+!data/**/.gitkeep
+data_balanced/
+
+# Local environments and caches
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Model weights and archives
+*.h5
+*.keras
+*.ckpt
+*.zip
